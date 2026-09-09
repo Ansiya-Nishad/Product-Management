@@ -1,4 +1,6 @@
 import mysql.connector
+
+
 class Dbconnection:
     def get_connection(self):
         try:
@@ -75,3 +77,5 @@ products=ProductManager()
 products.get()
 #products.get_object(id=1)
 #products.put(id=1,name="Maggie",category="Snack")
+#products.post(name="Chips",category="Snacks")
+#products.post(name="Maggie",category="Food")
